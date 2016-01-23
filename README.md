@@ -17,7 +17,14 @@ You'll need python 2.7 and [pip 1.4 or later](http://www.pip-installer.org/en/la
    pip install -r requirements.txt -t lib
    npm install
    ```
-4. Run this project locally from the command line:
+   
+5. Run 
+   ```
+   webpack --watch
+   ```
+   from comand line so that you can `require` your components and compile .jsx files to .js.
+   
+4. Run local server from the command line:
 
    ```
    dev_appserver.py .

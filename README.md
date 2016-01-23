@@ -16,7 +16,7 @@ You'll need python 2.7 and [pip 1.4 or later](http://www.pip-installer.org/en/la
    Note: App Engine can only import libraries from inside your project directory.
 
    ```
-   cd GAE-Flask-React-Webpack-Babel-skeleton
+   cd GAE-Flask-React-skeleton
    pip install -r requirements.txt -t lib
    npm install
    ```

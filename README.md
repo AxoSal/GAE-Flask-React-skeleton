@@ -1,7 +1,4 @@
-## Flask, React, Webpack, Babel Skeleton for Google App Engine
-
-A skeleton for building Python applications on Google App Engine with
-[Flask web framework](http://flask.pocoo.org), [React](https://facebook.github.io/react/), [Webpack](https://webpack.github.io/) and [Babel](https://babeljs.io/).
+## A skeleton for building Python applications on Google App Engine with [Flask](http://flask.pocoo.org), [React](https://facebook.github.io/react/), [Webpack](https://webpack.github.io/) and [Babel](https://babeljs.io/).
 
 ## Run Locally
 1. Install the [App Engine Python SDK](https://developers.google.com/appengine/downloads).
@@ -10,17 +7,24 @@ You'll need python 2.7 and [pip 1.4 or later](http://www.pip-installer.org/en/la
 2. Clone this repo with
 
    ```
-   git clone https://github.com/AxoSal/GAE-Flask-React-Webpack-Babel-skeleton.git
+   git clone https://github.com/AxoSal/GAE-Flask-React-skeleton.git
    ```
 3. Install Python dependencies in the project's lib directory and install Node dev dependencies.
    Note: App Engine can only import libraries from inside your project directory.
 
    ```
-   cd GAE-Flask-React-Webpack-Babel-skeleton
+   cd GAE-Flask-React-skeleton
    pip install -r requirements.txt -t lib
    npm install
    ```
-4. Run this project locally from the command line:
+   
+5. Run 
+   ```
+   webpack --watch
+   ```
+   from comand line so that you can `require` your components and compile .jsx files to .js.
+   
+4. Run local server from the command line:
 
    ```
    dev_appserver.py .

@@ -10,7 +10,7 @@ You'll need python 2.7 and [pip 1.4 or later](http://www.pip-installer.org/en/la
 2. Clone this repo with
 
    ```
-   git clone https://github.com/AxoSal/GAE-Flask-React-Webpack-Babel-skeleton.git
+   git clone https://github.com/AxoSal/GAE-Flask-React-skeleton.git
    ```
 3. Install Python dependencies in the project's lib directory and install Node dev dependencies.
    Note: App Engine can only import libraries from inside your project directory.
